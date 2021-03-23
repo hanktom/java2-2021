@@ -1,5 +1,7 @@
 package com.tom;
 
+import com.tom.stud.Student;
+
 public class HelloWorld {
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package com.tom;
+package com.tom.stud;
 
 public class Student {
     String id;
