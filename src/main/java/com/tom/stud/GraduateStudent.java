@@ -1,8 +1,6 @@
 package com.tom.stud;
 
-public class GraduateStudent
-        extends Student
-        implements Mailer {
+public class GraduateStudent extends Student {
     int thesis;
     public GraduateStudent(String id, String name,
                            int english, int math,
@@ -12,7 +10,6 @@ public class GraduateStudent
     }
 
     public void mail() {
-        // bla lba bla
-    }
 
+    }
 }
