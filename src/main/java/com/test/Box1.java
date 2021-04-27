@@ -5,6 +5,8 @@ public class Box1 extends Box {
         length = 10;
         width = 10;
         height = 10;
+        name = "BOX1";
+        price = 50;
     }
 
 }
