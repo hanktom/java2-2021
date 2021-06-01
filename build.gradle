@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation group: 'com.jgoodies', name: 'jgoodies-forms', version: '1.9.0'
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 }
