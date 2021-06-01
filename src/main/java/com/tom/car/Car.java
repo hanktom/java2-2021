@@ -6,7 +6,8 @@ import java.util.Date;
 
 public class Car {
     String id;
-    Date enter;
+    private Date enter;
+
     public Car(String id) {
         this.id = id;
         enter = new Date();
@@ -23,4 +24,7 @@ public class Car {
         enter = now.getTime();
     }
 
+    public Date getEnter() {
+        return enter;
+    }
 }
